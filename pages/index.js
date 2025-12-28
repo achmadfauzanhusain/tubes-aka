@@ -70,7 +70,7 @@ export default function Home() {
 
   // HITUNG SATU KASUS
   const calculateSingle = () => {
-    if (exponent > 10000) {
+    if (exponent > 50000) {
       alert('Exponent terlalu besar untuk single hitung')
       return
     }
